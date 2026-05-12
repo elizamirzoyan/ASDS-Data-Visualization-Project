@@ -1,0 +1,172 @@
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Gradient headers */
+.card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+/* KPI metric cards with colored left borders */
+.border-primary.border-4 {
+    border-left: 4px solid #4e73df !important;
+}
+
+.border-success.border-4 {
+    border-left: 4px solid #1cc88a !important;
+}
+
+.border-info.border-4 {
+    border-left: 4px solid #36b9cc !important;
+}
+
+.border-warning.border-4 {
+    border-left: 4px solid #f6c23e !important;
+}
+
+/* Numbers in KPI cards */
+.card-body h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.nav-pills .nav-link.active {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+/* Dropdown styling */
+.dash-dropdown .Select-control {
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+.dash-dropdown .Select-control:hover {
+    border-color: #667eea;
+}
+
+/* Checklist and Radio items */
+.form-check {
+    padding: 5px 0;
+}
+
+.form-check-input:checked {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+/* Slider styling */
+.rc-slider-track {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.rc-slider-handle {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Buttons */
+.btn-secondary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.btn-secondary:hover {
+    opacity: 0.9;
+}
+
+/* Main container */
+.container-fluid {
+    padding: 20px 30px;
+}
+
+/* Graph containers */
+.js-plotly-plot {
+    border-radius: 8px;
+}
+
+
+h5.card-title {
+    font-weight: 600;
+    color: #4a5568;
+}
+
+label.fw-bold {
+    color: #4a5568;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    border-top: 2px solid #e0e0e0;
+    margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 10px 15px;
+    }
+    
+    .card-body h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+.text-muted {
+    color: #8898aa !important;
+}
+
+
+#platform-filter, #campaign-type-filter {
+    margin-bottom: 10px;
+}
+
+.rc-slider {
+    margin: 15px 0 25px 0;
+}
+
+.gtitle {
+    font-weight: 600 !important;
+}
