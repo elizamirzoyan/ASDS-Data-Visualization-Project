@@ -13,6 +13,10 @@ This project contains EDA on three beauty campaign datasets:
 - `environment.yml` contains the conda environment
 - `.gitignore` ignores unnecessary files
 
+ 
+## Live Demo
+🔗 **[View Live Dashboard]( https://asds-data-visualization-project-2-z043.onrender.com)**
+
 ## How to Run
 
 ```bash
